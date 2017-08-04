@@ -1,0 +1,194 @@
+
+/*===============
+   页面样式--自定义
+ ===============*/
+
+.warp{
+    background: #F8F8F8;
+}
+
+
+/*==============
+  页面样式--共用样式
+  ==============*/
+
+
+.row1, .row2 ,.row3, .row4{
+    width:83%;
+    padding:10px 8%;
+    position: relative;
+}
+
+.row1, .row3, .row4{
+    background:#fff;
+    border-top:1px solid #bbb;
+    border-bottom:1px solid #bbb;
+}
+
+
+.col1{
+    position: relative;
+    text-align: center;
+    display: inline-block;
+    width:40px;
+    height:36px;
+    line-height:36px;
+}
+
+.col2{
+    position: absolute;
+    display: inline-block;
+}
+
+
+
+/*order_info*/
+.tips_icon span{
+    text-align: center;
+    color:white;
+    font-size:16px;
+    position: relative;
+    top:3px;
+    display: inline-block;
+    width:30px;
+    height:30px;
+    -webkit-border-radius:15px;
+    -moz-border-radius:15px;
+    border-radius:15px;
+    line-height:30px;
+}
+
+
+.shipper_icon span{
+    background:#26A69A;
+    border:1px solid #0E9487;
+}
+
+.receiver_icon span{
+    background:#FF7043;
+    border:1px solid #F85D2C;
+}
+
+.input_box {
+    height: 36px;
+    padding: 0 8px;
+    border: none;
+}
+
+input[type="tel"].input_box{
+    width:45%;
+}
+
+input[type="text"].input_box{
+    width:33%;
+}
+
+.input_bar{
+    width:1px;
+    height:25px;
+    display: inline-block;
+    background:#bbb;
+    position: relative;
+    top:8px;
+    margin-right:5px;
+}
+
+.row1-1{
+    padding-bottom:9px;
+    border-bottom:1px solid #bbb;
+    margin-bottom: 5px;
+}
+
+
+
+/*budget*/
+.row2{
+    padding:20px 8%;
+}
+
+/*fee*/
+.row3{
+    padding:15px 8%;
+    vertical-align: middle;
+    margin-bottom:20px;
+}
+.row3 input{
+    height:36px;
+    position: relative;
+    top:-10.5px;
+    border:none;
+    text-align: center;
+    vertical-align: middle;
+    width:150px;
+     
+}
+.row3 span{
+    height:36px;
+    position: relative;
+    top:-9.8px;
+    border:none;
+    text-align: center;
+    vertical-align: middle;
+}
+
+/*row4 remark_box*/
+
+.row4 .label_title{
+    display: inline-block;
+    position: absolute;
+}
+.row4 textarea{
+    outline: none;
+    position: relative;
+    left: 41px;
+    top: -1px;
+    border:none;
+    resize: none;
+    width:90%;
+}
+
+/*row5 amount_box*/
+.row5{
+    width: 100%;
+    position: fixed;
+    left:0px;
+    bottom:0px;
+    border-top: 1px solid #bbb;
+    text-align: right;
+    height:36px;
+    line-height: 36px;
+}
+.row5 input{
+    font-size:16px;
+    height:36px;
+    border:none;
+    outline:none;
+    color: #fff;
+    background:#FFA726;
+    line-height: 36px;
+}
+.tip_popup {
+	position: fixed;
+	top: 20%;
+	//margin-top: -12px;
+	left: 50%;
+	margin-left: -75px;
+	z-index: 1000;
+	height: 24px;
+	/*width: 120px;*/
+	font-size: 12px;
+	line-height: 24px;
+	color: white;
+	background: #687b84;
+	opacity: 0.6;
+	padding: 4px 15px;
+	border-radius: 5px;
+	transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	/* Firefox 4 */
+	-webkit-transition: all 0.5s;
+	/* Safari and Chrome */
+	-o-transition: all 0.5s;
+	/* Opera */
+	display: none;
+}

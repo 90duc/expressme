@@ -1,0 +1,228 @@
+html,
+body {
+    background: transparent;
+
+}
+
+.tip_popup {
+	position: fixed;
+	top: 20%;
+	//margin-top: -12px;
+	left: 50%;
+	margin-left: -75px;
+	z-index: 1000;
+	height: 24px;
+	/*width: 120px;*/
+	font-size: 12px;
+	line-height: 24px;
+	color: white;
+	background: #687b84;
+	opacity: 0.6;
+	padding: 4px 15px;
+	border-radius: 5px;
+	transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	/* Firefox 4 */
+	-webkit-transition: all 0.5s;
+	/* Safari and Chrome */
+	-o-transition: all 0.5s;
+	/* Opera */
+	display: none;
+}
+
+.warp_home {
+	width: 100%;
+	//height: 100%;
+	font-size: 14px;
+	color: #101010;
+}
+
+.warp_home_form {
+	margin: 0 auto;
+	width: 100%;
+}
+/*背景图片*/
+.back_img {
+	position: fixed;
+	top:0px;
+	width: 100%;
+	height: 100%;
+	z-index: -1;
+}
+
+.back_img img { 
+	min-width: 100%;
+	min-height: 800px;
+	height: 150vh;
+	max-height: 1000px;
+}
+/*-----------标题行-----------*/
+.iframe_title {
+	position:fixed;
+	top:0px;
+	width:90vw;
+	min-height: 30px;
+	max-height: 35px;
+	height: 3vw;
+	background: #fff;
+	padding: 10px 5vw;
+	/*border-top: 1px solid #BBB;*/
+	border-bottom: 1px solid #BBB;
+	background-color: #f8f8f8;
+	z-index:2;
+}
+/*用户按钮*/
+.user_icon {
+	width: 100%;
+	height: 90%;
+	/*padding:3% 0px 2% 0px;	*/
+}
+
+.user_icon img {
+	/*width: 5.1vw;*/
+	height: 100%;
+	min-width: 17px;
+	min-height: 20px;
+	max-width: 24px;
+	max-height: 30px;
+	vertical-align:bottom;
+	padding: 2px 0px 0px 0px;
+	cursor:pointer;
+}
+
+#login_button{
+	font-size:16px;
+}
+
+/*-----------输入框-----------*/
+.iframe_input {
+	/*background: #fff;
+	background-color: #f8f8f8;*/
+	display: table;
+	margin: 15vh auto 4vh;
+	position: relative;
+	top: 0px;
+	left: 0p;
+	padding: 0px 10px 0px 50px;	
+	width: 78vw;
+	max-width: 450px;
+	min-width: 200px;
+	/*border-top: 1px solid #BBB;
+	border-bottom: 1px solid #BBB;*/
+	background-color: #f8f8f8;
+	height: 100px;
+	border: 1px solid #BBB;
+}
+/*输入域*/
+.address_field {
+	width: 100%;
+	height: 50px;
+}
+
+.border_bottom {
+	border-bottom: 1px solid #BBB;
+}
+
+.input_text {
+	background: inherit;
+	font-size: 1.6rem;
+	/*width:90%*/;
+	width: 78vw;
+	max-width: 450px;
+	min-width: 200px;
+	height: 45px;
+	line-height: 25px;
+	pointer-events: auto;
+	/*text-align: justify;*/
+	border: none;
+	position: absolute;
+	left: 50px;
+	top: 4px;
+	padding: 0px 5px;
+	/*margin:0px;*/
+}
+
+.input_text:FOCUS {
+	outline: none;
+	box-shadow: none;
+}
+
+.border_top_color {
+	border-top: 1px solid #BBB;
+}
+
+.left_move_50 {
+	position: relative;
+	left: -50px;
+	top: 1px;
+}
+/*原点图*/
+.point_img {
+	width: 10px;
+	height: 10px;
+	border-radius: 18px;
+	margin: 19px 20px;
+	vertical-align: middle;
+}
+
+.start_color {
+	background-color: #e84e40;
+}
+
+.end_color {
+	background-color: #8ac744;
+}
+
+.next_button {
+	
+	display: table;
+	margin:0px auto 150px;
+}
+
+.next_button input,.next_click{
+	width: 60vw;
+	min-width:150px;
+	max-width:300px;
+	height: 50px;
+	cursor:pointer;
+	/*left: 13px;
+	//top: 240px;*/
+	color: #ffffff;
+	background-color: #47576e;
+	
+	transform: rotate(0deg);
+	-webkit-transform: rotate(0deg);
+	font-size: 16.0px;
+	border-radius: 8px;
+	border-width: 1px;
+	border-style: solid;
+	text-align: center;
+    line-height:50px;
+	padding:auto;	
+}
+
+
+/*----------- 菜单栏 -----------*/
+.pop_box{
+	position: fixed;
+	width:100%;
+	height:100%;
+	top:0px;
+	left:0px;
+	z-index:20;
+	background: transparent;
+	display:none;
+}
+.menu_box{
+	width:50%;
+	min-width:230px;
+	max-width:430px;
+	height:100%;	
+	background: #22202b;
+	outline-style:outset;
+    outline-color:#22202b;	
+
+}
+
+
+

@@ -1,0 +1,273 @@
+/*
+ * 椤甸潰鐨勬牱寮�
+ */
+
+
+/* ========
+   鍩烘湰榛樿鍊�
+   ======== */
+
+html,
+body {
+	font-size: 62.5%;
+	color: #888;
+	background: #f0f0f2;
+	/*height: 100%;*/
+}
+
+input {
+	outline: medium;
+}
+
+a {
+	transition: 0.5s all;
+	-webkit-transition: 0.5s all;
+	-o-transition: 0.5s all;
+	-moz-transition: 0.5s all;
+	-ms-transition: 0.5s all;
+	text-decoration: none;
+	color: #888;
+}
+
+a:hover,
+a:active {
+	text-decoration: none;
+}
+
+p{
+	margin:0;
+	padding:0;
+}
+
+/*娓呴櫎娴姩*/
+.clearfix:before,
+.clearfix:after {
+	content: " ";
+	display: table;
+}
+
+/*==========
+      鑷畾涔夐〉闈㈡牱寮�
+  ========== */
+
+.warp {
+	width: 100%;
+	/*height: 100%;*/
+	background:#f8f8f8;
+	font-size:14px;
+	color: #101010;
+}
+
+.warp .warp_form {
+	margin: 0 auto;
+	width: 100%;
+}
+.warp_form {
+     max-width:700px;
+}
+ .cancel_order, .evaluate_order{
+	background:#fff;
+	padding:10px 8%;
+	margin-bottom:2rem;
+	border-top: 1px solid #BBB;
+	border-bottom: 1px solid #BBB;
+}
+
+.order_title{
+	height:48px;
+	font-size:16px;
+	line-height:45px;
+
+}
+
+.order_place_time,.order_waited_time, .order_courier_id{
+	line-height:26px;
+}
+
+.order_waited_time, .order_courier_id{
+	margin-bottom:15px;	
+}
+
+.order_finished_time{
+	font-size: 14px;
+	float:right;
+}
+
+/*onging-oreders_detail*/
+#orderCourierName{
+	display: inline-block;
+	margin-right: 2.5rem;
+}
+
+.order_title{
+	position: relative;
+}
+
+
+/*good_detail*/
+.good_preview_photo,  .good_preview_price{
+	display: inline-block;
+	height:45px;
+	line-height:45px;
+}
+
+.good_preview_photo img{
+	width:45px;
+	border:0;
+}
+
+.good_preview_price{
+	position:relative;
+	top:-5px;
+	left:10px;
+}
+
+.good_price
+	{
+	font-size:29px;
+	color:#5e5b5e;
+}
+
+.good_preview_volume, .good_preview_weight{
+	height: 45px;
+}
+
+.iconfont{
+	font-size:24px;
+	color:#444444;
+}
+
+.icon_button{
+	display: inline-block;
+	width:26px;
+}
+
+.icon_button_navigation{
+	position: absolute;
+	right:-1rem;
+	top:2px;
+}
+
+.fa-navigation{
+	font-size: 20px;
+}
+
+ .good_preview #goodVolume{
+	height:45px;
+}
+
+.fa-weight{
+	font-size:21px;
+}
+
+
+/*order_logistics_info Start*/
+.inline_block{
+	display: inline-block;
+}
+
+.order_logistics_info_icon{
+	width:35px;
+	height:35px;
+	border-radius:18px;
+	margin-right:10px;
+	text-align: center;
+	line-height:35px;
+	position:absolute;
+	top:35%;
+	color:white;
+}
+
+.send_icon{
+	background:#2BAF2B;
+}
+
+.receive_icon{
+	background:#E84E40;
+}
+
+
+.receiver_info,.shipper_info{
+	height:35px;
+	line-height:35px;
+}
+
+
+/*cancel_orders Start*/
+.cancel_order, .evaluate_order{
+	background:#F8F8F8;
+	height:45px;
+	line-height:45px;
+	text-align: right;
+	padding: 2px 2%;
+	margin-bottom: 0;
+}
+
+.cancel_order span, 
+.evaluate_order button{
+	display: inline-block;
+	padding:2px 5px;
+	margin:5px 0px;
+}
+
+#cancelBtn{
+	cursor: pointer;
+	margin:5px 5px;
+}
+
+
+/*纭鏄惁鍒犻櫎璁㈠崟寮规*/
+
+.cancel_sure_box{
+	position: fixed;
+	width:100%;
+	height:100%;
+	top:0px;
+	left:0px;
+	background: rgba(0,0,0,0.2);
+	display:none;
+}
+
+.cancel_sure_box .cancel_sure{
+	width:240px;
+	height:134px;
+	position: absolute;
+	left:50%;
+	top:50%;
+	margin-left:-135px;
+	margin-top:-77px;
+	background: #fff;
+	border-radius: 5px;
+	text-align: center;
+	padding:10px 15px;
+}
+
+
+.cancel_sure_box .cancel_sure .icon_btn .fa-warning{
+	color:#F03A40;
+	font-size:41px;
+}
+
+.cancel_sure_box .cancel_sure p{
+	margin:10px 0;
+}
+
+#cancelNo, #cancelYes{
+	width:80px;
+	height:30px;
+	border-radius: 5px;
+	border:1px solid #bbb;
+	margin-top:15px;
+	position: relative;
+}
+
+#cancelNo{
+	left:-17px;
+}
+
+#cancelYes{
+	left:17px;
+	background:#F03A40;
+	border-color:#F03A40;
+	color:white;
+}

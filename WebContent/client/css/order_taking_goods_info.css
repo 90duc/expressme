@@ -1,0 +1,218 @@
+
+/*===============
+   页面样式--自定义
+ ===============*/
+
+.warp{
+    background: #fff;
+}
+
+/*===========
+    公共样式
+  ===========*/
+
+/*输入框基本样式*/
+.input_box{
+    height:36px;
+    padding:0 8px;
+    border:none;
+    border-bottom:1px solid #bbb;
+}
+
+.goods_basic_info, .goods_photo_box, .deliver_type_box, .btn_box{
+    margin-bottom:2rem;
+    border-bottom: 1px solid #BBB;
+}
+
+.goods_basic_info, .goods_photo_box, .deliver_type_box, .btn_box{
+    /*border:1px solid red;*/
+    width:83.5%;
+    padding:10px 8%;
+    position: relative;
+}
+
+ .goods_name_box, .goods_value_box, .goods_weight_box, .goods_volumn_box{
+    height:36px;
+    line-height:36px;
+    position: relative;
+}
+
+/*Row1*/
+.goods_name_box input{
+    width:70%;
+    max-width:160px;
+}
+
+/*Row2*/
+.row2, .row3{
+    width:100%;
+    position: relative;
+    height:36px;
+    margin-top:20px;
+}
+
+.goods_value_box, .goods_weight_box{
+    width:50%;
+    display:inline-block;
+}
+
+.goods_value_box{
+    text-align: left;
+    float:left;
+}
+
+.goods_weight_box{
+    text-align: right;
+    float:right;
+}
+
+.goods_value_box input, .goods_weight_box input{
+    width:25%;
+    padding:0 2px;
+    max-width:80px;
+}
+
+
+/*Row3*/
+.goods_volumn_box input{
+    text-align: center;
+    padding:0 2px;
+    width:20%;
+    max-width:80px;
+}
+.unit{
+    display: inline-block;
+   
+}
+
+
+/*goodsPhotos*/
+.goods_photo_box{
+   /* border:1px solid red;*/
+    height:60px;
+    line-height:60px;
+}
+
+.upload_box{
+    display: inline-block;
+    position: relative;
+    margin-right:20%;
+    top:-33px;
+}
+
+.upload_box .goods_photo{
+   /* border:1px solid red;*/
+    width:60px;
+    height:60px;
+    display: inline-block;
+    opacity: 0;
+    position: absolute;
+    left:0;
+    top:0px;
+    z-index: 111;
+}
+.icon_button{
+    width:60px;
+    height:60px;
+    font-size:34px;
+    position: absolute;
+    top:0px;
+    left:0px;
+    background: #ABA6AB;
+    text-align: center;
+}
+.iconfont{
+    color:white;
+}
+
+
+/*radion_button*/
+
+.deliver_type_title{
+    height:36px;
+    line-height:30px;
+}
+
+.radio_select_box{
+    display: inline-block;
+    border-radius:8px;
+    position: relative;
+    margin-right:1rem;
+}
+
+.radio_select_box .deliver_type{
+    height:36px;
+    line-height:36px;
+    display: inline-block;
+    border-radius: 8px;
+    padding: 0 12px;
+    position:relative;
+    z-index: 999;
+    border:none;
+}
+
+.radio_select_box .deliver_type input{
+    position: absolute;
+    opacity: 0;
+}
+
+.radio_select_box .radio_skin{
+    height:36px;
+    line-height:36px;
+    display: inline-block;
+    border-radius: 8px;
+    position: absolute;
+    left: 0px;
+    top:0px;
+    width:100%;
+    z-index: 0;
+    border:1px solid #bbb;
+}
+
+.radio_select_box .radio_skin.active{
+    border:1px solid black !important;
+}
+
+/*upload button Start*/
+
+input[type="submit"]{
+    height:45px;
+    width:100%;
+    background: #668491;
+    color:#fff;
+    -webkit-border-radius:8px;
+    -moz-border-radius:8px;
+    border-radius:8px;
+    text-align: center;
+    border:1px solid #ABB1B3;
+    margin:0 auto;
+
+}
+
+
+.tip_popup {
+	position: fixed;
+	top: 20%;
+	//margin-top: -12px;
+	left: 50%;
+	margin-left: -75px;
+	z-index: 1000;
+	height: 24px;
+	/*width: 120px;*/
+	font-size: 12px;
+	line-height: 24px;
+	color: white;
+	background: #687b84;
+	opacity: 0.6;
+	padding: 4px 15px;
+	border-radius: 5px;
+	transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	/* Firefox 4 */
+	-webkit-transition: all 0.5s;
+	/* Safari and Chrome */
+	-o-transition: all 0.5s;
+	/* Opera */
+	display: none;
+}
+

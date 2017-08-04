@@ -1,0 +1,60 @@
+.certification_lists input{
+	background: transparent;
+	display: inline-block;
+	width: 100%;
+	height: 100%;
+	pointer-events: auto;
+	border: none;
+	text-align: left;
+	padding-left:100px;
+}
+
+.certification_lists span{
+	
+   display:table-cell;
+	width: 100%;
+	height: 100%;
+	pointer-events: auto;
+	border: none;
+	line-height:45px;
+	text-align: left;
+	padding-left:120px;
+	vertical-align: baseline;
+}
+.certification_lists label{
+   
+	display:table-cell;
+	border: none;	
+	padding-left:0%;
+	
+}
+ #certification_btn{
+	width: 80vw;
+	max-width:350px;
+	height:35px;
+	border-radius: 6px;
+	margin: 0 auto;
+	text-align: center;	
+	color: #fff;
+	background: #78909c;
+	font-size: 16px;
+	border: 1px solid #bbb;
+}
+
+.table_field{
+	color:#666;
+	border-bottom: 1px solid #666;
+	margin: 20px 0px;
+
+	
+}
+
+.table_row td{
+
+	line-height:55px;
+	padding-right: 4vw;
+}
+.table_cell_title{
+	padding-left:15px;
+	width: 100px;	
+}

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport"
+	content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<title>短信登录</title>
+
+<link href="css/login.css" rel="stylesheet" type="text/css" />
+<link href="css/font.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+	<div class="warp">
+		<div class="warp_form">
+	
+				<!--手机号码输入及验证码获取-->
+				<div class="login_mobile">
+					<div class="icon_button">
+						<i class="iconfont"> &#xe616; </i>
+					</div>
+					<div class="mtext_input">
+						<input id="userID" type="tel" name="userID" placeholder="请输入手机号码"
+							required="required" pattern="\d{11}" title="请输入正确的手机号码"
+							autocomplete="off" />
+					</div>
+
+
+				</div>
+
+				<!--输入验证码-->
+				<div class="login_verify">
+					<div class="icon_button">
+						<i class="iconfont"> &#xe69b; </i>
+					</div>
+					<div class="mtext_input">
+						<input type="text" name="verifyCode" placeholder="请输入验证码"
+							required="required" autocomplete="off" />
+					</div>
+					<input id="btnGetCode" name="btnGetCode" type="button"
+						value="获取验证码" />
+				</div>
+
+				<div class="login_protocol">
+					<div class="icon_button">
+						<i class=" fa-right iconfont"> &#xe61d; </i>
+					</div>
+					<a href="###">同意并接受《注册会员服务条款》</a>
+				</div>
+				<div class="">
+					<input type="submit" class="login_submit" id="btnCheckCode"
+						name="btnCheckCode" value="登录" />
+				</div>
+
+				<div class="login_choice">
+					<a href="login_by_password.html" class="login_by_code"> 使用密码登录
+					</a>
+				</div>
+		</div>
+		<div class="login_info">
+			<span> 未注册的手机登录时将为您自动注册 </span>
+		</div>
+		<div id="invalid_popup">请输入正确的手机号码</div>
+	</div>
+
+	<script type="text/javascript"
+		src="http://apps.bdimg.com/libs/jquery/1.11.1/jquery.js"></script>
+	<script type="text/javascript" src="js/login.js"></script>
+</body>
+
+</html>

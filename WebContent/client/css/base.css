@@ -1,0 +1,57 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+table,tr,td,tbody {
+	margin: 0px;
+	padding: 0px;
+}
+
+.inline_block {
+	display: inline-block;
+}
+
+.vertical_align {
+	height: 100%;
+	line-height: 350%;
+	vertical-align: baseline;
+}
+
+.vertical_align_float {
+	height: 100%;
+	line-height: 250%;
+	vertical-align: middle;
+}
+
+.cursor_hand {
+	cursor: pointer;
+}
+.table_info {
+	display: table; 
+    margin: 0 auto; 
+	
+}
+
+.normal_font {
+	font-size: 14px;
+	color: #101010;
+}
+
+.left_float {
+	float: left;
+}
+
+.right_float {
+	float: right;
+}
+
+.iconfont {
+	font-size: 24px;
+	color: #444444;
+}
+
+.icon_button {
+	display: inline-block;
+	width: 26px;
+}
